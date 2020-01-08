@@ -1,11 +1,11 @@
 package selectionSort;
 
 import java.util.Arrays;
-public class sort {
+public class SelectionSort {
 
 	public static void main(String[] args) {
 		int[] data = {7,3,6,8,2};
-		new sort().ssort(data);
+		new SelectionSort().ssort(data);
 		System.out.println(Arrays.toString(data));
 	}
 	
