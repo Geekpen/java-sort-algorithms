@@ -1,10 +1,10 @@
 package bubbleSort;
 import java.util.*;
-public class sort {
+public class BubbleSort {
 
 	public static void main(String[] args) {
 		int[] data = {8,7,6,4,2};
-		new sort().bsort(data);
+		new BubbleSort().bsort(data);
 		System.out.println(Arrays.toString(data));
 	}
 	
