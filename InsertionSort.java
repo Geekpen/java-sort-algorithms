@@ -1,12 +1,12 @@
 package insertionSort;
 
 import java.util.Arrays;
-public class sort {
+public class InsertionSort {
 
 
 	public static void main(String[] args) {
 		int[] data = {7,3,6,8,2};
-		new sort().sortD(data);
+		new InsertionSort().sortD(data);
 		System.out.println(Arrays.toString(data));
 	}
 	
